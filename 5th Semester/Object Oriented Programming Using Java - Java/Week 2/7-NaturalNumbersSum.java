@@ -7,7 +7,7 @@ class NaturalNumbersSum
 		Scanner a = new Scanner(System.in);
 		System.out.print("\n Enter number: ");
 		int n = a.nextInt();
-		int s = (int) (n * (n+1) / 2);
+		int s = (int) (n * (n + 1) / 2.0);
 		System.out.println("\n Sum upto " + n + " natural numbers: " + s + ".");
 	}
 }

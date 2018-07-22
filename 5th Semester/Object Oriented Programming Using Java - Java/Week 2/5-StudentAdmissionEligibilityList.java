@@ -2,11 +2,11 @@ package w2;
 import java.util.Scanner;
 class Student
 {
-	int m,p,c;
+	int m, p, c;
 	String name;
 	int check()
 	{
-		if (m >= 60 && p >= 50 && c >= 40  && ((m + p + c) >= 200 || (m+p) >= 150))
+		if (m >= 60 && p >= 50 && c >= 40  && ((m + p + c) >= 200 || (m + p) >= 150))
 			return 1;
 		else
 			return 0;
@@ -16,7 +16,7 @@ class Course
 {
 	public static void main(String[] args)
 	{
-		int n,i,o;
+		int n, i, o;
 		String e = "";
 		Student a = new Student();
 		Scanner d = new Scanner(System.in);
@@ -38,13 +38,13 @@ class Course
 			if (o == 1)
 			{
 				e = e.concat(a.name);
-				e = e.concat(", ");
+				e = e.concat("\n ");
 			}
 		}
 		if (e.equals("") == true)
 			System.out.println("\n No students eligible for admission.");
 		else
-			System.out.println("\n Eligibility list of students for admission in the course is as follows: " + e + "\b\b.");
+			System.out.println("\n Eligibility list of students for admission in the course is as follows :-\n\n " + e);
 		
 	}
 }

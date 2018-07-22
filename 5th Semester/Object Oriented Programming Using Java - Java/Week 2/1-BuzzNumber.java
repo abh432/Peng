@@ -23,8 +23,8 @@ class Buzz
 		int w = d.nextInt();
 		int r = s.buzz(w);
 		if (r == 1)
-			System.out.println("\n The number " +w+ " is a buzz number.");
+			System.out.println("\n The number " + w + " is a buzz number.");
 		else
-			System.out.println("\n The number " +w+ " is not a buzz number.");
+			System.out.println("\n The number " + w + " is not a buzz number.");
 	}
 }

@@ -20,6 +20,6 @@ class MainClass
 	{
 		Factorial h = new Factorial();
 		int a = h.factorial(12);
-		System.out.println("\n The factorial of the number 12 is: "+a+".");
+		System.out.println("\n The factorial of the number 12 is: " + a + ".");
 	}
 }

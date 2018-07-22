@@ -5,12 +5,12 @@ class Series
 	int r,s;
 	void fibonacci(int g)
 	{
-		int i,j;
+		int i, j;
 		r = s = 1;
 		System.out.print("1, ");
-		for (i=1; i<g; i++)
+		for (i = 1; i < g; i++)
 		{
-			System.out.print(s+", ");
+			System.out.print(s + ", ");
 			j = s;
 			s += r;
 			r = j;
@@ -26,7 +26,7 @@ class Fibonacci
 		System.out.print("\n Enter number of terms: ");
 		int mm = a.nextInt();
 		Series ob = new Series();
-		System.out.print("\n Fibonacci series of " +mm+ " terms: ");
+		System.out.print("\n Fibonacci series of " + mm + " terms: ");
 		ob.fibonacci(mm);
 		System.out.println();
 	}

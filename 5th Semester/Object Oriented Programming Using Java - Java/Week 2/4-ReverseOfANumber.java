@@ -4,15 +4,15 @@ class Number2
 {
 	void reverse(int c)
 	{
-		int r = 0,d,n;
+		int r = 0, d, n;
 		n = c;
 		while(n > 0)
 		{
-			d = n%10;
-			n = n/10;
-			r = r*10 + d;
+			d = n % 10;
+			n = n / 10;
+			r = r * 10 + d;
 		}
-		System.out.println("\n The reverse of the number " +c+ " is: "+r+".");
+		System.out.println("\n The reverse of the number " + c + " is: " + r + ".");
 	}
 }
 class Reverse

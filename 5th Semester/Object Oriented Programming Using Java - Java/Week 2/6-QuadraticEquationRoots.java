@@ -3,7 +3,7 @@ import java.lang.Math;
 import java.util.Scanner;
 class Equation
 {
-	double a,b,c;
+	double a, b, c;
 }
 class Roots
 {
